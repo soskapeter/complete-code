@@ -6,6 +6,9 @@
         <script async defer src="https://apis.google.com/js/platform.js"></script>
     </head>
     <body>
+        <form action="/register" method="get">
+            <input type="submit" value="Register me."/>
+        </form>
         <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
         <script>
             function onSignIn(googleUser) {
